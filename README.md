@@ -38,7 +38,5 @@ Este estudo de caso abordou a implementação segura de um sistema de pedidos de
 
 📢 **Sugestões e melhorias são bem-vindas!**
 
-Change your username and password. You can access this by clicking dropdown in the Navbar
 
-![Image of Yaktocat](output/account-settings.jpg)
 
