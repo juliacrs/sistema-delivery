@@ -1,64 +1,43 @@
-# Task-Manager-using-Flask
+# Sistema de Pedidos de Delivery - Estudo de Caso
 
-A simple web application to store your To-Do Tasks .
+## 📌 Descrição do Projeto
 
-# Features
+Sistema de Pedidos de Delivery - Estudo de Caso
+Este projeto consiste na criação, implementação e segurança de um sistema de pedidos de delivery. Ele foi desenvolvido utilizando Python e Flask, com foco em práticas de DevSecOps e segurança de software.
 
-- User Authentication
-- Easy to use and deploy locally.
+# 🚀 Tecnologias Utilizadas
 
-# Requirements
+- **Linguagem**: Python
+- **Framework**: Flask
+- **Gerenciamento de Dependências**: pip
+- **Containerização**: Docker
+- **Segurança**: OWASP ZAP, Bandit, OWASP Dependency-Check, Trivy
+- **CI/CD**: GitHub Actions
+- **Monitoramento**: Prometheus, Grafana
 
-Execute the following command to install the required third party libraries:
+# 📂 Esse projeto foi baseado no repositorio:
 
-```pip3 install -r requirements.txt```
-
-# Usage
-
-1. Clone the repository using the following command
-    
     ```git clone https://github.com/AdityaBagad/Task-Manager-using-Flask.git```
 
-2. Install the dependencies using
+## ⚙️ CI/CD Pipeline
 
-    ```cd  Task-Manager-using-Flask```
-    
-    ```pip3 install -r requirements.txt```
+O projeto utiliza GitHub Actions para:
 
-3. Run this command to start the application
+- **Build:** Criar e testar a aplicação.
+- **Test:** Executar testes unitários e de segurança.
+- **Análise de Código:** Avaliação com Bandit e Dependency-Check.
+- **Deploy:** Implantação automática do container Docker.
 
-    ```cd todo_project```
+## 📊 Monitoramento
 
-    ```python run.py```
+Utilizamos **Prometheus e Grafana** para coletar métricas e monitorar logs da aplicação.
 
-# Results
+## 📌 Conclusão
 
-## Registration Page
-Login or Register if you dont have an account
+Este estudo de caso abordou a implementação segura de um sistema de pedidos de delivery, integrando boas práticas de DevSecOps e automação. O pipeline CI/CD garante segurança e qualidade contínua, enquanto o monitoramento auxilia na detecção proativa de problemas.
 
-![Registration Page](output/register.jpg)
+📢 **Sugestões e melhorias são bem-vindas!**
 
-## Accessing URL's 
-User cannot access any URL's if they are not logged in
-
-![Invalid Access](output/invalid-access.jpg)
-
-## After Successfull Login
-See all your tasks after successfull login.
-
-![After Login](output/after-login.jpg)
-
-## Add Tasks
-Click the **Add Task** link in the side-bar to add tasks
-
-![Image of Yaktocat](output/add-task.jpg)
-
-## View All Tasks
-Click the **View All Task** link in the side-bar to see all tasks. You can **Update** and **Delete** Tasks from this page.
-
-![Image of Yaktocat](output/all-tasks.jpg)
-
-## Account Settings
 Change your username and password. You can access this by clicking dropdown in the Navbar
 
 ![Image of Yaktocat](output/account-settings.jpg)
